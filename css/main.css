@@ -1,0 +1,677 @@
+/* ------ Connections font ------ */
+
+@font-face {
+  font-family: 'Museo Sans 100';
+  src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo Sans 300';
+  src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo Sans 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Natasha';
+  src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* ------ Specification ------ */
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Museo Sans 300', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+div, p, form, input, span, button, a {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Natasha', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	/*letter-spacing: 1.5px;*/
+}
+
+h1 {
+	font-size: 49px;
+	color: #fff;
+}
+
+h2 {
+	font-size: 35px;
+	color: #22241b;
+/*	padding-top: 84px;
+	margin-bottom: 60px;*/
+}
+
+h3 {
+	font-size: 22px;
+	color: #888886;
+	letter-spacing: 0.12em;
+}
+
+h4 {
+	font-size: 15px;
+	color: #4b4c47;
+	font-family: 'Museo Sans 900', sans-serif;
+}
+
+h5 {
+	font-family: 'Museo Sans 100', sans-serif;
+	font-size: 12px;
+	color: #22241b;
+}
+
+p {
+	margin: 0;
+    line-height: 27px;
+    /*letter-spacing: 0.2px;*/
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.jcb {
+	justify-content: space-between;
+}
+
+.jca {
+	justify-content: space-around;
+}
+
+.aic {
+	align-items: center;
+}
+
+.jcc {
+	justify-content: center;
+}
+
+/* ------ First screen ------ */
+
+.header {
+	background: #404c48 url(../img/forest.jpg) no-repeat center top / cover;
+	padding: 53px 0 83px;
+}
+
+.logo {
+	margin-right: 55px;
+}
+
+.logo__text {
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.logo__my {
+	font-size: 17px;
+	font-weight: 100;
+}
+
+.logo__portfolio {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.menu {
+	width: 59%;
+}
+
+.menu a {
+	font-size: 15px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 43px;
+}
+
+.e-mail {
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+	margin-left: auto;
+	text-transform: none;
+	letter-spacing: 0.12em;
+}
+
+.e-mail:hover {
+	border-bottom: 1px solid #6a6b67;
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+	margin-left: auto;
+	text-transform: none;
+}
+
+.offer {
+	margin-top: 286px;
+}
+
+.offer__title {
+	margin-bottom: 30px;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: 0.12em
+}
+
+.offer__added {
+	font-family: 'Museo Sans 100', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 16px;
+	font-weight: 100;
+}
+
+.arrow__down {
+	font-size: 18px;
+	height: 38px;
+	width: 38px;
+	display: block;
+	background: transparent;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 31px;
+	margin-top: 255px;
+}
+
+/* ------ Second screen ------ */
+
+.about {
+	padding-top: 84px;
+	margin-bottom: 57px;
+}
+
+.about h2 {
+    letter-spacing: 0.12em;
+}
+
+.about-wrapper {
+	margin-top: 75px;
+}
+
+.about-bg {
+	width: 450px;
+}
+
+.about-bg__title {
+	margin-bottom: 30px;
+}
+
+.about-bg__text {
+	color: #22241b;
+	margin-bottom: 1.9em;
+}
+
+.merits {
+	width: 469px;
+}
+
+.merits__title {
+	line-height: 19px;
+}
+
+.merits__list {
+	margin-top: 60px;
+    /*margin-bottom: 28px;*/
+}
+
+.merits__item {
+	/*margin-right: 55px;*/
+	text-align: center;
+	width: 100%;
+}
+
+.merits__item-wrap {
+	letter-spacing: 0.12em;
+}
+
+.merits__box {
+	width: 70px;
+	height: 70px;
+	border: 2px solid #3d6433;
+	text-align: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 39px;
+	transform: rotate(46deg);
+}
+
+.merits__box:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	border: 1px solid #cddbc3;
+    left: 3px;
+    top: 3px;
+}
+
+.merits__digit {
+	color: #3d6433;
+	font-size: 20px;
+	transform: rotate(-46deg);
+}
+
+.link {
+	
+}
+
+.link__title {
+	margin-top: 62px;
+    margin-bottom: 24px;
+}
+
+.link__list {
+	align-items: center;
+}
+
+.link__item {
+
+}
+
+.link__data a {
+	font-size: 14px;
+	color: #204d15;
+	letter-spacing: 0.12em;
+    line-height: 2.5em;
+
+}
+
+.link__data:hover {
+	border-bottom: 1px solid #6a6b67;
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+	margin-left: auto;
+	text-transform: none;
+}
+
+.link-wrap {
+
+}
+
+.link__box {
+	width: 65px;
+	height: 65px;
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #eef1ed;
+	background: #eef1ed url('../img/icon.png') no-repeat center center;
+	margin-right: 18px;
+}
+
+
+
+/*.link__content {
+	width: 119px;
+	border: 2px solid #82c83d;
+	height: 70px;
+	text-align: center;
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}*/
+
+.link__text {
+	font-style: italic;
+	font-size: 14px;
+	color: #797a77;
+	letter-spacing: 0.6px;
+    line-height: 5em;
+}
+
+/* ------ Skills screen ------ */
+
+.skills {
+
+}
+
+.skills-title {
+	letter-spacing: 0.14em;
+}
+
+.skills__list {
+	padding-top: 60px;
+	margin-bottom: 81px;
+}
+
+.skills__item {
+	/*width: 25%;*/
+}
+
+.skills__item-wrap {
+
+}
+
+.skills__box {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #3d6433;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 27px;
+}
+
+.skills__box:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #cddbc3;
+	border-radius: 50%;
+    left: 3px;
+    top: 3px;
+}
+
+.skills__digit {
+	color: #204d15;
+	font-size: 13px;
+}
+
+.skills__text {
+	letter-spacing: 0.12em;
+}
+
+/* ------ Works screen ------ */
+
+.works {
+
+}
+
+.works h2 {
+	letter-spacing: 0.12em;
+}
+
+.works-list {
+	padding-top: 57px;
+}
+
+.works-list__item {
+	width: 300px;
+	height: 299px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.works-list__item:before {
+	background: rgba(0,0,0,0.64);
+	content: '';
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    z-index: 1;
+}
+
+.works-list__item:hover:before,
+.works-list__item:hover .works-list__wrap {
+	opacity: 1;
+	visibility: visible;
+}
+
+.works-list__wrap {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	visibility: hidden;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    opacity: 0;
+    color: #fff;
+    line-height: 1.4em;
+}
+
+.works-list__overlay {
+    color: #fff;
+}
+
+.works-list__text {
+	border-bottom: 1px solid #8f8d8b;
+	display: inline-block;
+	color: #fff;
+}
+
+/* ------ Footer ------ */
+
+.footer {
+	font-size: 11px;
+    color: #888886;
+    padding-bottom: 112px;
+    padding-top: 122px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+}
+
+.footer-wrap {
+
+}
+
+.footer-item {
+	
+}
+
+/* ------ Media queries ------ */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 700px;
+	}
+	.about-bg, .merits {
+		width: 45%;
+	}
+	.link__list {
+		flex-wrap: wrap;
+	}
+	.logo__text {
+	    flex-direction: row;
+	}
+	.offer__title {
+    	letter-spacing: 0.012em;
+	}
+	h2 {
+		flex-direction: column;
+	    display: flex;
+	    align-items: center;
+	}
+	.works-list {
+		flex-wrap: wrap;
+    	justify-content: space-around;
+	}
+	.works-list__item {
+		margin: 10px;
+	}
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	.logo__text {
+	    flex-direction: row;
+	    /*display: flex;*/
+	}
+	.about-wrapper {
+    	flex-direction: column;
+	}
+	.about-bg, .merits {
+		width: 100%;
+		text-align: center;
+	}
+	.about-bg__text {
+		font-size: 15px;
+	}
+	.offer {
+		margin-top: 100px;
+	}
+	.offer__title {
+    	letter-spacing: 0.12em;
+    	font-size: 53px;
+	}
+	h2 {
+		flex-direction: column;
+	    display: flex;
+	    align-items: center;
+	}
+	.arrow__down {
+		margin-top: 100px;
+	}
+	.logo {
+		margin: 0;	
+	}
+	.e-mail {
+		margin: 0;
+	}
+	.menu {
+		width: auto;
+	}
+	.menu a {
+    	margin: 0;
+	}
+	.menu__panel {
+		flex-direction: column;
+	}
+	.container__elements {
+	flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+	.link__list {
+    flex-direction: column;
+	}
+	.skills__list {
+	width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	}
+	.skills__item {
+    width: 240px;
+	}
+	.works-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer {
+		text-align: center;
+	}
+	.skills__item-wrap {
+    	margin-bottom: 20px;
+	}
+
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.offer__title {
+    	font-size: 30px;
+	}
+	.offer__added {
+		font-size: 25px;
+	}
+	.about-bg__text {
+		font-size: 15px;
+	}
+	.offer {
+    margin-top: 80px;
+	}
+	.arrow__down {
+    margin-top: 80px;
+	}
+	.merits__list {
+		flex-direction: column;
+	}
+	.merits__title {
+		padding-bottom: 25px;
+	}
+	.merits__list {
+    	margin-top: 40px;
+	}
+	.link__title {
+	    margin-top: 45px;
+	}
+	.skills__box {
+		margin-right: 0;
+		margin-bottom: 20px;
+		
+	}
+	.skills__item-wrap {
+		align-items: center;
+		flex-direction: column;
+	}
+}
